@@ -1,6 +1,6 @@
-# proxy-github
+# Configure SSH for GitHub behind a proxy
 
-nano .ssh/config and add:
+Open the SSH configuration file located at ~.ssh/config. Add the following lines, replacing IP-PROXY and PORT with the proxy host address and port number:
 
 ```
 Host github.com
@@ -11,3 +11,4 @@ Host github.com
     User git
 
 ```
+
